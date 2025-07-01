@@ -1,12 +1,19 @@
 {
   "name": "day4",
   "version": "1.0.0",
-  "description": "",
+  "description": "my project",
+  "type": "commonjs",
   "license": "ISC",
   "author": "khushi panu",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
